@@ -3,67 +3,86 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="text.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
 <body>
-<div class="navbar">
-<input type="search" class="searchbar">
+<nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fa fa-bars"></i>
+      </span>
+      <a href="#" class="logo">uDonor</a>
+      <ul class="main-nav" id="js-menu">
+          <li>
+              <a href="#" class="nav-links">DONATE</a>
+          </li>
+          <li>
+              <a href="#" class="nav-links">Services</a>
+          </li>
+          <li>
+              <a href="#" class="nav-links">About Us</a>
+          </li>
+          <li>
+              <a href="#" class="nav-links">Contact Us</a>
+          </li>
+      </ul>
+  </nav>
+<div class="sidenav">
+  <h1>Filters</h1>
+  <input type="search" id="mySearch">
+  <p><input type="checkbox" name="">Cancer</p>
+  <p><input type="checkbox" name="">Medical Research</p>
+  <p><input type="checkbox" name="">Orphans</p>
+  <p><input type="checkbox" name="">Economically disadvantaged</p>
+  <p><input type="checkbox" name="">Disaster relief</p>
+  <p><input type="checkbox" name="">Education</p>
+  <p><input type="checkbox" name="">Mental Healthcare</p>
+  <p><input type="checkbox" name="">Martyrs</p>
 </div>
 <!-- <h2>Responsive Column Cards</h2>
 <p>Resize the browser window to see the effect.</p> -->
-<div class="container">
-  <div class="row">
-    <div class="column" id="first">
-      <div class="card">
-        <h3>Card 1</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <h3>Card 2</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <h3>Card 3</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
+<div class="flex-container">
+  <div class="card">
+    <img src="images/helpage.jpeg" class="card-img">
+    <h3>Help Age India</h3>
+    <p>Over 78% of senior citizens are destitue and helpless. Help them live out their retirement in peace</p>
+    <button><strong>Donate</strong></button>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
+  </div>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Some text</p>
+    <p>Some text</p>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="column" id="first">
-      <div class="card">
-        <h3>Card 1</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <h3>Card 2</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <h3>Card 3</h3>
-        <p>Some text</p>
-        <p>Some text</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 </body>
+<script type="text/javascript" src="navscript.js"></script>
 </html>
