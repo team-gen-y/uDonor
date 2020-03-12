@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bimg1, 
+.bimg2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bimg1 {
+    background-image: url(../images/top.jpg);
+    min-height: 400px;
+}
+
+.bimg2 {
+    background-image: url(../images/bottom.jpeg);
+    min-height: 400px;
+}
+
+.container {
+    min-height: 500px;
+}
+
+.container p {
+    text-align: center;
+}
