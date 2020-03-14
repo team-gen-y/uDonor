@@ -49,6 +49,9 @@ body {
     margin-left: 100px;
     padding: 30px;
   }
+  .flex-container{
+    margin-left: 0px;
+  }
 }
 
 /* Style the counter cards */
@@ -68,7 +71,9 @@ body {
   margin: 20px;
   background-color: #a53860;
   border: 1px solid #b7999c;
-  padding: 5px;
+  padding: 10px;
+  color: #f7f7ff;
+  border-radius: 25px;
 }
 /*.flex-container > div {
   background-color: DodgerBlue;
@@ -83,13 +88,13 @@ body {
   .flex-container{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 200px;
-    background-color: #f2d0a4;
+    background-color: #ead2ac;
+    margin-left: 160px;
   }
 
 #mySearch{
   width: 100%;
-  background-color: #545e75;
+  background-color: #2376ae;
   color: white;
 }
 .sidenav {
@@ -98,16 +103,16 @@ body {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
 /*  left: 0;
-*/  background-color: #545e75; /* Black */
+*/  background-color: #2376ae; /* Black */
   border-right: solid #1C046C 1px;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
-.sidenav p {
+.sidenav label{
   padding: 6px 8px 10px 16px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
+  color: rgba(255, 255, 255, 0.7);
   display: block;
 }
 .card-img{
@@ -116,3 +121,7 @@ body {
   opacity: 60%;
 /*  box-shadow: 0 6px 12px 0 rgba(0.8, 0.8, 0.8, 0.8);
 */}
+.sidenav h1{
+  color:rgba(255, 255, 255, 0.7);
+  padding: 5px;
+}
