@@ -66,22 +66,12 @@
   color: #f7f7ff;
   border-radius: 25px;
 }
-/*.flex-container > div {
-  background-color: DodgerBlue;
-  color: white;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  flex-direction: row;
-}*/
-  .flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    margin-left: 160px;
-
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #ead2ac;*/
+  background-color: white;
+  margin-left: 160px;
   }
 
 #mySearch{

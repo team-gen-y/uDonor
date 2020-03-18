@@ -26,7 +26,7 @@ function Hide(string){
                 flag=1;
         }
         if (flag==0)
-             cardList[i].style.visibility = 'hidden';
+             cardList[i].style.display = 'none';
     }
 }
 function Unhide(string){
@@ -40,7 +40,7 @@ function Unhide(string){
                 flag=1;
         }
         if (flag==0)
-             cardList[i].style.visibility = 'visible';
+             cardList[i].style.display = 'block';
     }
 
 }
