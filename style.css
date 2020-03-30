@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleshet" href="style.css">
-    <title>Document</title>
-</head>
-    
-<body>    
-  <style type="text/css">
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
   box-sizing: border-box;
@@ -221,54 +210,3 @@ input {
 .container.right-panel-active .overlay-right {
   transform: translateX(20%);
 }
-
-</style>
-<div class="container" id="container">
-  <div class="form-container sign-up-container">
-    <form action="#">
-      <h1>Create Account</h1>
-      
-      
-      <input type="text" placeholder=" firstName" />
-      <input type="text" placeholder="lastName" />
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <select id="city">
-        <option value="Delhi">Delhi</option>
-        <option value="Mumbai">Mumbai</option>
-        <option value="Chennai">Chennai</option>
-        <option value="Kolkata">Kolkata</option>
-      </select>
-      <button>Sign Up</button>
-    </form>
-  </div>
-  <div class="form-container sign-in-container">
-    <form action="#">
-      <h1>Sign in</h1>
-      
-      
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <a href="#">Forgot your password?</a>
-      <button>Sign In</button>
-    </form>
-  </div>
-  <div class="overlay-container">
-    <div class="overlay">
-      <div class="overlay-panel overlay-left">
-        
-        
-        <button class="ghost" id="signIn">Sign In</button>
-      </div>
-      <div class="overlay-panel overlay-right">
-        
-        <button class="ghost" id="signUp">Sign Up</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</body>
-<script src="script.js"></script>
-</html>
