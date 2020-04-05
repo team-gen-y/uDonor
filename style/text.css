@@ -1,89 +1,28 @@
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
 
-.row {
-  margin: 0 -5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 80%;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 10%;
-  }
-  .searchbar {
-    visibility: hidden;
-  }
-  .card {
-    margin-top: 30px;
-  }
-  #first {
-    margin-top: 50px;
-  }
-  .sidenav {
-    visibility: hidden;
-  }
-  .sidenav p {
-    visibility: hidden;
-  }
-  .card {
-    min-width: 300px;
-    margin-left: 100px;
-    padding: 30px;
-  }
-  .flex-container {
-    margin-left: 0px;
-  }
-}
-
-/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px;
-  /*  text-align: center;
-*/
   background-color: #f7f7ff;
   min-height: 470px;
   min-width: 380px;
-  width: 25%;
-  margin: 50px;
+  width: 26%;
+  margin: 50px 20px 50px 50px;
   line-height: 20px;
   font-size: 15px;
 }
 .card button {
-  margin: 20px;
+  margin: 5px 10px 10px 10px;
   background-color: #a53860;
   border: 1px solid #b7999c;
   padding: 10px;
   color: #f7f7ff;
   border-radius: 25px;
 }
-/*.flex-container > div {
-  background-color: DodgerBlue;
-  color: white;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  flex-direction: row;
-}*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-  margin-left: 160px;
+  margin-left: 115px;
 }
 
 #mySearch {
@@ -92,13 +31,13 @@
   color: white;
 }
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  background-color: #2376ae; /* Black */
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  background-color: #2376ae;
   border-right: solid #1c046c 1px;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   padding-top: 20px;
 }
 .sidenav label {
@@ -116,4 +55,26 @@
 .sidenav h1 {
   color: white;
   padding: 5px;
+}
+@media screen and (max-width: 560px) {
+  .searchbar {
+    display: none;
+  }
+  #first {
+    margin-top: 50px;
+  }
+  .sidenav {
+    display: none;
+  }
+  .sidenav p {
+    display: none;
+  }
+  .card {
+    min-width: 280px;
+    margin: 20px;
+    padding: 30px;
+  }
+  .flex-container {
+    margin-left: 0px;
+  }
 }
